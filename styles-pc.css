@@ -1,0 +1,18 @@
+@media (min-width: 500px) {
+
+    body{
+        background-image: url(assets/images/background-pattern-desktop.svg);
+    }
+
+    .contenedor{
+        margin-top: 205px;
+        width: 47%;
+    }
+
+    .respuesta p{
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+}

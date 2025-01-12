@@ -3,59 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor | FAQ accordion</title>
+  <title>FAQ Accordion</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles-pc.css">
 </head>
 <body>
-  <!-- ..........Contenedor General.......... -->
-
   <div class="contenedor">
-
     <div class="titulo">
-      <img src="assets/images/icon-star.svg" alt="star-logo" class="logo">
-      <h1>
-        FAQs
-      </h1>
+      <img class="logo" src="assets/images/icon-star.svg" alt="star-logo">
+      <h1>FAQs</h1>
     </div>
-
-    <!-- Seccion de preguntas -->
-
-    <div class="seccion-preguntas-one">
-
-      <div class="question-1">
-
+    <div class="seccion-preguntas">
+      
+      <!-- Pregunta 1 -->
+      <div class="question">
         <div class="part-one">
-          <h4 class="pregunta">
-            What is Frontend Mentor, and how will it help me?
-          </h4>
+          <h4 class="pregunta">What is Frontend Mentor, and how will it help me?</h4>
           <button class="btn-abrir">
-            <img src="assets/images/icon-plus.svg" alt="mas">
+            <img src="assets/images/icon-plus.svg" alt="Abrir">
+          </button>
+          <button class="btn-cerrar" style="display: none;">
+            <img src="assets/images/icon-minus.svg" alt="Cerrar">
           </button>
         </div>
-
-        <div class="pregunta-respuesta-1">
-          <h4 class="pregunta">
-            What is Frontend Mentor, and how will it help me?
-          </h4>
-
-          <button class="btn-cerrar">
-            <img src="assets/images/icon-minus.svg" alt="menos">
-          </button>
-
-          <div class="respuesta-1">
-            <p class="respuesta">
-              Frontend Mentor offers realistic coding challenges to help developers improve their 
-              frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
-              all levels and ideal for portfolio building.
-            </p>
-          </div>
+        <div class="respuesta">
+          <p>
+            Frontend Mentor offers realistic coding challenges to help developers improve their 
+            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+            all levels and ideal for portfolio building.
+          </p>
         </div>
-
+      </div>
+      
+      <!-- Pregunta 2 -->
+      <div class="question">
+        <div class="part-one">
+          <h4 class="pregunta">How can I get started with Frontend Mentor?</h4>
+          <button class="btn-abrir">
+            <img src="assets/images/icon-plus.svg" alt="Abrir">
+          </button>
+          <button class="btn-cerrar" style="display: none;">
+            <img src="assets/images/icon-minus.svg" alt="Cerrar">
+          </button>
+        </div>
+        <div class="respuesta">
+          <p>
+            Simply sign up on the platform, choose a challenge, and start coding! You can 
+            submit your solutions and get feedback from the community.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Pregunta 3 -->
+      <div class="question">
+        <div class="part-one">
+          <h4 class="pregunta">Are there challenges for beginners?</h4>
+          <button class="btn-abrir">
+            <img src="assets/images/icon-plus.svg" alt="Abrir">
+          </button>
+          <button class="btn-cerrar" style="display: none;">
+            <img src="assets/images/icon-minus.svg" alt="Cerrar">
+          </button>
+        </div>
+        <div class="respuesta">
+          <p>
+            Yes! Frontend Mentor offers challenges tailored for all levels, including complete 
+            beginners. Start with a simple project and gradually take on more complex tasks.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Pregunta 4 -->
+      <div class="question">
+        <div class="part-one">
+          <h4 class="pregunta">Can I use frameworks like React or Vue?</h4>
+          <button class="btn-abrir">
+            <img src="assets/images/icon-plus.svg" alt="Abrir">
+          </button>
+          <button class="btn-cerrar" style="display: none;">
+            <img src="assets/images/icon-minus.svg" alt="Cerrar">
+          </button>
+        </div>
+        <div class="respuesta">
+          <p>
+            Absolutely! While most challenges start with HTML, CSS, and JavaScript, you’re 
+            free to use any framework or library you prefer.
+          </p>
+        </div>
       </div>
 
     </div>
-
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
